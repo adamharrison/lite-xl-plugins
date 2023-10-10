@@ -71,6 +71,24 @@
       "mod_version": "3"
     },
     {
+      "description": "Supports ChatGPT coding autocompletes. Requires an OpenAI token.",
+      "version": "0.1",
+      "path": "plugins/chatgpt.lua",
+      "id": "chatgpt",
+      "mod_version": "3",
+      "dependencies": {
+        "www": {},
+        "json": {}
+      }
+    },
+    {
+     "id": "codeplus",
+     "version": "1.0",
+     "description": "Offers improvements such as highlighted comments and autocomplete for brackets, quotes and more. ([demo](https://s12.gifyu.com/images/Sckre.gif))",
+     "remote": "https://github.com/chqs-git/code-plus.git:b336999b707709df2ddcb865f664623c5beceabb",
+     "mod_version": 3
+    },
+    {
       "description": "Color picker dialog that supports html and rgb notations.",
       "version": "0.1",
       "path": "plugins/colorpicker.lua",
