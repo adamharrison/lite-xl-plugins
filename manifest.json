@@ -1776,10 +1776,10 @@
       "version": "0.1"
     },
     {
-      "description": "A plugin manager view for lite-xl that provides GUI access to `lpm`",
+      "description": "A GUI interface to Adam's lite-xl plugin manager.",
       "id": "plugin_manager",
-      "mod_version": "3",
-      "remote": "https://github.com/lite-xl/lite-xl-plugin-manager.git:3e5d5b0827058f2eeddfb166d8128fc086a87e28",
+      "mod_version": 3,
+      "remote": "https://github.com/lite-xl/lite-xl-plugin-manager.git:57a17aeff26711a44a214cb0e3c2dc72c84d8e8f",
       "version": "0.1"
     },
     {
