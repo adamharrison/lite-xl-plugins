@@ -1974,10 +1974,10 @@
       "version": "0.1"
     },
     {
-      "description": "An integrated terminal for lite-xl. *([screenshot](https://github.com/adamharrison/lite-xl-terminal/assets/1034518/eb8a72a0-ff61-4b95-b009-364ac2725f70))*",
+      "description": "An integrated terminal for lite-xl.",
       "id": "terminal",
       "mod_version": "3",
-      "remote": "https://github.com/adamharrison/lite-xl-terminal.git:394b577caa1491d2a8fb92b1b4acd93b2feb6b9a",
+      "remote": "https://github.com/adamharrison/lite-xl-terminal.git:491f0d9b523c1b1526a68236fb07d238f86d3c13",
       "version": "1.01"
     },
     {
