@@ -1616,8 +1616,8 @@
       "description": "Automatic configuration/binary download for LSP completion for Python with Pyright.",
       "id": "lsp_python",
       "mod_version": "3",
-      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers:89efc5642cb9abcd9023c8e5ef3dba85b399884e",
-      "version": "1.1.352"
+      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers.git:e6460f2711c8a11495be2292e07ec894457b8c16",
+      "version": "1.1.356"
     },
     {
       "description": "Automatic configuration/binary download for LSP linting for Javascript with quick-lint-js.",
@@ -1630,15 +1630,15 @@
       "description": "Automatic configuration/binary download for LSP completion for Rust with rust-analyzer.",
       "id": "lsp_rust",
       "mod_version": "3",
-      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers:89efc5642cb9abcd9023c8e5ef3dba85b399884e",
-      "version": "20240304"
+      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers.git:e6460f2711c8a11495be2292e07ec894457b8c16",
+      "version": "20240325"
     },
     {
       "description": "Automatic configuration/binary download for LSP completion for TeX with texlab.",
       "id": "lsp_tex",
       "mod_version": "3",
-      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers:89efc5642cb9abcd9023c8e5ef3dba85b399884e",
-      "version": "5.12.4"
+      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers.git:e6460f2711c8a11495be2292e07ec894457b8c16",
+      "version": "5.14.0"
     },
     {
       "description": "Automatic configuration/binary download for LSP completion for Typescript and Javascript with typescript-language-server.",
@@ -1723,12 +1723,12 @@
       "version": "1.2.2"
     },
     {
-      "description": "Provides official NodeJs binaries",
+      "description": "Official NodeJs builds.",
       "id": "nodejs",
       "mod_version": "3",
-      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers:89efc5642cb9abcd9023c8e5ef3dba85b399884e",
+      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers.git:e6460f2711c8a11495be2292e07ec894457b8c16",
       "type": "library",
-      "version": "20.11.1"
+      "version": "20.12.0"
     },
     {
       "dependencies": {
@@ -2126,6 +2126,24 @@
         "wal_lxl"
       ],
       "version": "1.1"
+    },
+    {
+      "description": "Automatic configuration/binary download for LSP completion for clojure with clojure-lsp.",
+      "id": "lsp_clojure",
+      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers.git:e6460f2711c8a11495be2292e07ec894457b8c16",
+      "version": "2024.03.31"
+    },
+    {
+      "description": "LSP support for JSON via vscode-json-languageserver with [additional patches](patches/vscode-json-languageserver) for increased functionality.",
+      "id": "lsp_json",
+      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers.git:e6460f2711c8a11495be2292e07ec894457b8c16",
+      "version": "1.87.2.0.1"
+    },
+    {
+      "description": "LSP support for YAML via yaml-language-server.",
+      "id": "lsp_yaml",
+      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers.git:e6460f2711c8a11495be2292e07ec894457b8c16",
+      "version": "1.14.0"
     }
   ]
 }
