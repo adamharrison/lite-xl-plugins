@@ -17,7 +17,9 @@ jobs:
           echo -e "\n## Plugins\n" >> README.md
           ./lpm-latest init . --userdir .
           ./lpm-latest list --table url,description --header Plugin,Description --type plugin --tag '!language' --status '!core' --userdir . >> README.md
-          ./lpm-latest list --table url,description --header Plugin,Description --type plugin --tag '!language' --status '!core' --userdir .
+          echo "??????"
+          echo `./lpm-latest list --table url,description --header Plugin,Description --type plugin --tag '!language' --status '!core' --userdir .`
+          echo "WWATTT"
           echo -e "\n## Languages\n" >> README.md
           ./lpm-latest list --table url,description --header Language,Description --type plugin --tag 'language' --userdir .  >> README.md
           echo -e "\n## Libraries\n" >> README.md
