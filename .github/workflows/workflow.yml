@@ -20,6 +20,8 @@ jobs:
           echo "??????"
           echo `./lpm-latest list --table url,description --header Plugin,Description --type plugin --tag '!language' --status '!core' --userdir .`
           echo `./lpm-latest list --table url,description --userdir .`
+          echo "JSON???"
+          echo `./lpm-latest list --json --userdir .`
           echo "WWATTT"
           echo -e "\n## Languages\n" >> README.md
           ./lpm-latest list --table url,description --header Language,Description --type plugin --tag 'language' --userdir .  >> README.md
