@@ -15,7 +15,7 @@ jobs:
           # Remove everything after the --- so we can regenerate it.
           perl -pi -e 'exit(0) if $_ =~ m/^\-\-\-/' README.md && echo -e "---" >> README.md
           echo -e "\n## Plugins\n" >> README.md
-          export TABLE_COLUMNS='{{string.format("[`%s`](%s)", addon.id, addon.url) .. (addon.url:find("http") and "*" or "")}},description'
+          export TABLE_COLUMNS='{{string.format("[`%s`](%s)", addon.id, (addon.extra.url or addon.url)) .. ((addon.extra.url or addon.url:find("http")) and "*" or "")}},description'
           ./lpm-latest init . --userdir .
           ./lpm-latest list --table "$TABLE_COLUMNS" --header Plugin,Description --type plugin --tag '!language' --status '!core' --userdir . >> README.md
           echo -e "\n## Languages\n" >> README.md
