@@ -1,4 +1,4 @@
--- mod-version:3
+-- mod-version:4
 local core = require "core"
 local translate = require "core.doc.translate"
 local config = require "core.config"
