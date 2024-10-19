@@ -2351,7 +2351,7 @@
     {
       "description": "A metapackage that provides the minimum functionalities for Lite XL to run as a minimal IDE.",
       "id": "ide",
-      "mod_version": "3",
+      "mod_version": "4",
       "remote": "https://github.com/lite-xl/lite-xl-ide.git:4b8e93607c56ea917f6e8280d3b47c83b1e60201",
       "version": "0.3"
     },
