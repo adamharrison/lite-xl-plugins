@@ -1746,13 +1746,13 @@
     {
       "description": "Provides intellisense by leveraging the LSP protocol.",
       "id": "lsp",
-      "mod_version": "3",
+      "mod_version": "4",
       "name": "Language Server Protocol",
-      "remote": "https://github.com/lite-xl/lite-xl-lsp.git:ed8345488ee97d3ee99605025303a40ec301a513",
+      "remote": "https://github.com/lite-xl/lite-xl-lsp.git:216a6df91f634000eadc602ad426a71bf1a06201",
       "tags": [
         "language server protocol"
       ],
-      "version": "0.8"
+      "version": "0.9"
     },
     {
       "description": "Completion menu kind/type icons for Lite XL LSP",
