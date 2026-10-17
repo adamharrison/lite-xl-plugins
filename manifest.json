@@ -2583,6 +2583,14 @@
       "mod_version": "4",
       "remote": "https://github.com/lite-xl/lite-xl-ide.git:4b8e93607c56ea917f6e8280d3b47c83b1e60201",
       "version": "0.1"
+    },
+    {
+      "id": "recovery",
+      "version": "0.1.0",
+      "mod_version": "4",
+      "type": "plugin",
+      "description": "Private periodic snapshots and opt-in crash recovery for dirty and unnamed documents. POSIX adapter; macOS tested.",
+      "path": "plugins/recovery"
     }
   ],
   "remotes": [

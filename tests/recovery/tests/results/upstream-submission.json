@@ -1,0 +1,19 @@
+{
+  "label": "upstream-submission",
+  "passed": true,
+  "unit_result": "PASS native owner PID checks identify running and absent processes\nPASS codec round-trips Unicode NUL newlines paths and selections\nPASS codec refuses truncation checksum changes executable Lua and bad limits\nPASS untitled and named dirty buffers snapshot without writing source\nPASS unchanged buffers do not generate new snapshots\nPASS cursor source and newline changes update snapshot metadata\nPASS successful snapshots retain only the latest three generations\nPASS corrupt latest generation falls back to previous valid generation\nPASS pending and unrelated files are never treated as recovery data\nPASS active-session snapshots are skipped\nPASS unknown owners are skipped without removing snapshots\nPASS independent sessions use distinct directories and files\nPASS cross-instance claim prevents a second restorer\nPASS stale claims can be reclaimed after owner death\nPASS restore opens a new unsaved copy and leaves original and open doc intact\nPASS restore preserves blank lines multicursor and UTF8 boundaries\nPASS empty named new-file buffer recovers as an unsaved empty copy\nPASS restored buffer is persisted before source acknowledgement\nPASS a crash after restoration produces one recoverable newer copy\nPASS save or discard retires transferred archives as well as the current copy\nPASS archive cleanup never deletes another running instance's files\nPASS saved restored buffers use a fresh origin when edited again\nPASS acknowledgements suppress older duplicate origins across sessions\nPASS write failures retain previous committed snapshot and dirty buffer\nPASS close and rename failures never publish or prune the previous generation\nPASS oversized buffers fail without losing an earlier valid snapshot\nPASS a failed restored-copy write leaves the source available\nPASS retirement failure leaves data available for retry\nPASS stock save hook immediately retires a saved snapshot\nPASS failed stock save retains dirty buffer and snapshot\nPASS stock Close cancellation preserves snapshot; confirmed last Close retires it\nPASS stock closing a second view does not retire shared document\nPASS stock shutdown confirmation No preserves; Yes retires after removal callback\nPASS failed shutdown callback retains snapshot\nPASS platform adapter rejects unsupported Windows before file commands\nPASS claim symlink aliases are rejected without deleting external files\nPASS symlink snapshot files are never decoded\nPASS module reload does not stack save or close hooks\n38/38 passed\n",
+  "binary": "upstream source build",
+  "mod_version": 4,
+  "unit_checks": 38,
+  "process_checks": [
+    "PASS real periodic named and unnamed snapshots",
+    "PASS active-session exclusion",
+    "PASS SIGKILL restart preserves text CRLF Unicode and multicursors",
+    "PASS second crash preserves exactly two copies",
+    "PASS stock save retires snapshots",
+    "PASS saved copies not offered on next startup",
+    "PASS actual stock Quit No preserves and Yes retires snapshots before exit",
+    "PASS source remains byte-identical",
+    "PASS private recovery directory/file permissions"
+  ]
+}

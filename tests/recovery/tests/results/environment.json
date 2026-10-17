@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-16",
+  "platform": "macOS-14.8.9-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "live_deployed": false,
+  "existing_workspace_accessed": false,
+  "live_baseline_files_unchanged": 37,
+  "upstream_tracked_sources_modified": false,
+  "build_generated_files": "subprojects/.wraplock (untracked Meson lock)",
+  "published": false,
+  "pushed": false
+}

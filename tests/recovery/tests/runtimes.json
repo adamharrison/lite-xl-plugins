@@ -1,0 +1,20 @@
+{
+  "stock": {
+    "repo": "https://github.com/lite-xl/lite-xl.git",
+    "ref": "v2.1.8",
+    "commit": "0af4dae0e2748d6afe7bded41c13d96f627cb520",
+    "mod_version": 3
+  },
+  "upstream": {
+    "repo": "https://github.com/lite-xl/lite-xl.git",
+    "ref": "master",
+    "commit": "234fa0998016f3da9eb9ceaf3c4bc79b93462276",
+    "mod_version": 4
+  },
+  "preview": {
+    "repo": "https://github.com/adamharrison/lite-xl.git",
+    "ref": "3.0-preview",
+    "commit": "683e8bf2b3852d1d6a4a8af5a357cd49355a573e",
+    "mod_version": 4
+  }
+}

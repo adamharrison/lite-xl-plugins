@@ -1,0 +1,4 @@
+PASS syntax: 8 Lua files
+PASS syntax: 4 Python helpers
+PASS product modules byte-match all five passing profiles, excluding the declared API header
+PASS Python formatting preserved parsed ASTs
